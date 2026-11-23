@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets / local env
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# This workspace also holds unrelated hh_parser tooling.
+# Keep the GitHub repo limited to net-speed-probe sources.
+/*
+!/.gitignore
+!/README.md
+!/speedcheck.py
+!/tests/
+/tests/*
+!/tests/__init__.py
+!/tests/test_speedcheck.py
